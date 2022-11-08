@@ -1,0 +1,135 @@
+2022-10-28 10:02:18,783 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogbackMdcApplication using Java 11.0.14 on USSNDJC2PDK3-1 with PID 44884 (C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc\target\classes started by ycelik in C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc)
+2022-10-28 10:02:18,786 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 10:02:19,986 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 10:02:20,002 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-28 10:02:20,002 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-28 10:02:20,003 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 10:02:20,134 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-28 10:02:20,134 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1304 ms
+2022-10-28 10:02:20,547 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-10-28 10:02:20,559 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-10-28 10:02:20,564 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2022-10-28 10:02:20,564 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2022-10-28 10:02:20,574 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2022-10-28 10:02:20,574 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2022-10-28 10:02:20,583 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-28 10:02:20,605 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-10-28 10:03:35,011 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogbackMdcApplication using Java 11.0.14 on USSNDJC2PDK3-1 with PID 39172 (C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc\target\classes started by ycelik in C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc)
+2022-10-28 10:03:35,015 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 10:03:35,995 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8380 (http)
+2022-10-28 10:03:36,005 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:03:36,005 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-28 10:03:36,006 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 10:03:36,096 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-28 10:03:36,097 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1041 ms
+2022-10-28 10:03:36,352 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:03:36,375 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8380 (http) with context path ''
+2022-10-28 10:03:36,384 INFO org.springframework.boot.StartupInfoLogger [main] Started LogbackMdcApplication in 1.869 seconds (JVM running for 2.235)
+2022-10-28 10:04:46,649 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogbackMdcApplication using Java 11.0.14 on USSNDJC2PDK3-1 with PID 43924 (C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc\target\classes started by ycelik in C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc)
+2022-10-28 10:04:46,652 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 10:04:47,611 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8380 (http)
+2022-10-28 10:04:47,622 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:04:47,623 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-28 10:04:47,623 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 10:04:47,721 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-28 10:04:47,721 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1028 ms
+2022-10-28 10:04:47,988 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:04:48,018 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8380 (http) with context path ''
+2022-10-28 10:04:48,026 INFO org.springframework.boot.StartupInfoLogger [main] Started LogbackMdcApplication in 1.852 seconds (JVM running for 2.222)
+2022-10-28 10:05:13,660 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8380-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 10:05:13,661 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8380-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 10:05:13,663 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8380-exec-1] Completed initialization in 1 ms
+2022-10-28 10:05:13,691 INFO com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] An INFO Message
+2022-10-28 10:05:13,692 WARN com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] A WARN Message
+2022-10-28 10:05:13,692 ERROR com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] An ERROR Message
+2022-10-28 10:08:11,518 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogbackMdcApplication using Java 11.0.14 on USSNDJC2PDK3-1 with PID 35820 (C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc\target\classes started by ycelik in C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc)
+2022-10-28 10:08:11,523 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 10:08:12,698 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8380 (http)
+2022-10-28 10:08:12,710 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:08:12,711 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-28 10:08:12,711 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 10:08:12,810 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-28 10:08:12,811 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1242 ms
+2022-10-28 10:08:13,078 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:08:13,105 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8380 (http) with context path ''
+2022-10-28 10:08:13,115 INFO org.springframework.boot.StartupInfoLogger [main] Started LogbackMdcApplication in 2.143 seconds (JVM running for 2.541)
+2022-10-28 10:08:26,316 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8380-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 10:08:26,317 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8380-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 10:08:26,317 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8380-exec-1] Completed initialization in 0 ms
+2022-10-28 10:08:26,334 INFO com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] An INFO Message
+2022-10-28 10:08:26,334 WARN com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] A WARN Message
+2022-10-28 10:08:26,334 ERROR com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] An ERROR Message
+2022-10-28 10:10:42,744 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogbackMdcApplication using Java 11.0.14 on USSNDJC2PDK3-1 with PID 36544 (C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc\target\classes started by ycelik in C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc)
+2022-10-28 10:10:42,747 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 10:10:43,704 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8380 (http)
+2022-10-28 10:10:43,714 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:10:43,714 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-28 10:10:43,715 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 10:10:43,809 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-28 10:10:43,809 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1018 ms
+2022-10-28 10:10:44,062 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:10:44,088 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8380 (http) with context path ''
+2022-10-28 10:10:44,097 INFO org.springframework.boot.StartupInfoLogger [main] Started LogbackMdcApplication in 1.859 seconds (JVM running for 2.217)
+2022-10-28 10:10:50,626 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8380-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 10:10:50,628 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8380-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 10:10:50,629 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8380-exec-1] Completed initialization in 1 ms
+2022-10-28 10:10:50,649 INFO com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] An INFO Message
+2022-10-28 10:10:50,649 WARN com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] A WARN Message
+2022-10-28 10:10:50,650 ERROR com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] An ERROR Message
+2022-10-28 10:11:44,721 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogbackMdcApplication using Java 11.0.14 on USSNDJC2PDK3-1 with PID 16636 (C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc\target\classes started by ycelik in C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc)
+2022-10-28 10:11:44,724 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 10:11:45,725 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8380 (http)
+2022-10-28 10:11:45,735 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:11:45,736 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-28 10:11:45,737 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 10:11:45,847 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-28 10:11:45,848 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1077 ms
+2022-10-28 10:11:46,127 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:11:46,156 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8380 (http) with context path ''
+2022-10-28 10:11:46,164 INFO org.springframework.boot.StartupInfoLogger [main] Started LogbackMdcApplication in 2.012 seconds (JVM running for 2.405)
+2022-10-28 10:11:59,532 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogbackMdcApplication using Java 11.0.14 on USSNDJC2PDK3-1 with PID 1700 (C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc\target\classes started by ycelik in C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc)
+2022-10-28 10:11:59,536 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 10:12:00,445 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8380 (http)
+2022-10-28 10:12:00,455 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:12:00,455 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-28 10:12:00,455 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 10:12:00,548 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-28 10:12:00,548 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 974 ms
+2022-10-28 10:12:00,815 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8380"]
+2022-10-28 10:12:00,843 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8380 (http) with context path ''
+2022-10-28 10:12:00,853 INFO org.springframework.boot.StartupInfoLogger [main] Started LogbackMdcApplication in 1.821 seconds (JVM running for 2.192)
+2022-10-28 11:07:52,622 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogbackMdcApplication using Java 11.0.14 on USSNDJC2PDK3-1 with PID 18992 (C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc\target\classes started by ycelik in C:\Users\ycelik\Desktop\testProjects\spring\logback\logback-mdc)
+2022-10-28 11:07:52,625 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 11:07:53,644 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8380 (http)
+2022-10-28 11:07:53,654 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8380"]
+2022-10-28 11:07:53,655 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-10-28 11:07:53,655 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 11:07:53,763 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-10-28 11:07:53,763 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1095 ms
+2022-10-28 11:07:54,018 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8380"]
+2022-10-28 11:07:54,042 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8380 (http) with context path ''
+2022-10-28 11:07:54,052 INFO org.springframework.boot.StartupInfoLogger [main] Started LogbackMdcApplication in 1.942 seconds (JVM running for 2.344)
+2022-10-28 11:08:01,993 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8380-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 11:08:01,993 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8380-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 11:08:01,994 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8380-exec-1] Completed initialization in 1 ms
+2022-10-28 11:08:02,010 INFO com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] An INFO Message
+2022-10-28 11:08:02,010 WARN com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] A WARN Message
+2022-10-28 11:08:02,010 ERROR com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-1] An ERROR Message
+2022-10-28 11:08:03,114 INFO com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-3] An INFO Message
+2022-10-28 11:08:03,115 WARN com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-3] A WARN Message
+2022-10-28 11:08:03,116 ERROR com.example.logback.mdc.controller.LoggingController [http-nio-8380-exec-3] An ERROR Message
